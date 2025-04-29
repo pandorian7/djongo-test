@@ -26,7 +26,7 @@ SECRET_KEY = 'e$klul+z19xix&03lqo+@k^nzhvf4pi$kjx49w3hxvt7o=!%er'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'emagazine.wsgi.app'
+WSGI_APPLICATION = 'emagazine.wsgi.application'
 
 
 # Database
